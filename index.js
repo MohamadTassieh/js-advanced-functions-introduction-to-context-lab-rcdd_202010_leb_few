@@ -49,7 +49,7 @@ function allWagesFor(employee){
   let dates= employee.timeInEvents.map(function(e){
         return e.date
     })
-    
+
     let payable = dates.reduce(function(memo, d){
         return memo + wagesEarnedOnDate(employee, d)
     }, 0)
