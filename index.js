@@ -64,4 +64,4 @@ function allWagesFor(employee){
 let calculatePayroll = function(Array){
     return Array.reduce(function(acc, item){
         return acc + allWagesFor(item)
-    }, 0)
+    }, 0)}
